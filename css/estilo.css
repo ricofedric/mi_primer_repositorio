@@ -1,0 +1,91 @@
+/* COLORES */
+body {
+  background: #eeeded;
+  font-family: "Roboto", sans-serif;
+  text-align: center; }
+
+img {
+  max-width: 100%; }
+
+.contenedor {
+  background: white;
+  width: 90%;
+  max-width: 1000px;
+  margin: 1.6em auto;
+  display: grid;
+  gap: 1em;
+  grid-template-columns: repeat(5, 1fr); }
+  .contenedor .header {
+    grid-column: 1/6;
+    background-color: #646464; }
+  .contenedor .menu {
+    grid-column: span 5; }
+  .contenedor .footer {
+    grid-column: 1/6;
+    background-color: #646464;
+    color: #ffe05d; }
+  .contenedor .contenido {
+    grid-column: span 4; }
+  .contenedor .costado {
+    grid-column: span 1; }
+  .contenedor article {
+    background: white;
+    padding: 20px;
+    margin-top: 10px; }
+
+li {
+  float: left; }
+  li li a {
+    display: block;
+    color: white;
+    padding: 14px 59px;
+    text-decoration: none;
+    transition: all 0.5s ease; }
+
+li a:hover {
+  background-color: #646464; }
+
+ul {
+  color: #ff9642;
+  font-family: Arial, Helvetica, sans-serif;
+  list-style-type: none;
+  margin: auto;
+  padding: 0%;
+  overflow: hidden;
+  background-color: #646464;
+  margin-bottom: 50px; }
+
+table {
+  margin: auto; }
+  table th {
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif; }
+  table td {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: auto;
+    text-align: center; }
+    table td ol {
+      font-family: Arial, Helvetica, sans-serif;
+      margin: auto;
+      text-align: center; }
+      table td ol li {
+        font-family: Arial, Helvetica, sans-serif;
+        margin: auto;
+        text-align: center;
+        padding: auto;
+        display: table; }
+
+video {
+  width: 75%;
+  display: block;
+  margin: auto;
+  margin-top: 50px; }
+
+.contenidocowork {
+  grid-column: 1/6; }
+
+.contenidocursos {
+  justify-content: space-evenly; }
+
+form {
+  margin: 30px; }
